@@ -1,0 +1,24 @@
+[22-Jul-2021 17:43:50 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil-blog/index.php on line 6
+[22-Jul-2021 17:43:50 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil-blog/index.php on line 6
+[22-Jul-2021 17:43:50 UTC] PHP Fatal error:  require(): Failed opening required 'admin/config.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/esperanza/public_html/veil-blog/index.php on line 6
+[23-Jul-2021 15:29:25 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil-blog/index.php on line 6
+[23-Jul-2021 15:29:25 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil-blog/index.php on line 6
+[23-Jul-2021 15:29:25 UTC] PHP Fatal error:  require(): Failed opening required 'admin/config.php' (include_path='.:/opt/cpanel/ea-php72/root/usr/share/pear') in /home/esperanza/public_html/veil-blog/index.php on line 6
+[18-May-2022 04:28:43 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil-blog/index.php on line 6
+[18-May-2022 04:28:43 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil-blog/index.php on line 6
+[18-May-2022 04:28:43 UTC] PHP Fatal error:  require(): Failed opening required 'admin/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/veil-blog/index.php on line 6
+[08-Sep-2022 20:40:53 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil-blog/index.php on line 6
+[08-Sep-2022 20:40:53 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil-blog/index.php on line 6
+[08-Sep-2022 20:40:53 UTC] PHP Fatal error:  require(): Failed opening required 'admin/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/veil-blog/index.php on line 6
+[09-Sep-2022 19:40:36 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil-blog/index.php on line 6
+[09-Sep-2022 19:40:36 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil-blog/index.php on line 6
+[09-Sep-2022 19:40:36 UTC] PHP Fatal error:  require(): Failed opening required 'admin/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/veil-blog/index.php on line 6
+[09-Sep-2022 20:15:49 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil/index.php on line 6
+[09-Sep-2022 20:15:49 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/veil/index.php on line 6
+[09-Sep-2022 20:15:49 UTC] PHP Fatal error:  require(): Failed opening required 'admin/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/veil/index.php on line 6
+[09-Sep-2022 20:17:38 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/index.php on line 6
+[09-Sep-2022 20:17:38 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/index.php on line 6
+[09-Sep-2022 20:17:38 UTC] PHP Fatal error:  require(): Failed opening required 'admin/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/Gabi-tama/index.php on line 6
+[09-Sep-2022 20:31:20 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/index.php on line 6
+[09-Sep-2022 20:31:20 UTC] PHP Warning:  require(admin/config.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/index.php on line 6
+[09-Sep-2022 20:31:20 UTC] PHP Fatal error:  require(): Failed opening required 'admin/config.php' (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/Gabi-tama/index.php on line 6

@@ -1,0 +1,1439 @@
+<!DOCTYPE html>
+
+<html class="no-js" lang="zxx" style="
+"><head>
+    <meta charset="utf-8">
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <title>SAI | Home</title>
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- <link rel="manifest" href="site.webmanifest"> -->
+    <link rel="shortcut icon" type="image/x-icon" href="">
+    <!-- Place favicon.ico in the root directory -->
+
+    <!-- CSS here -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/magnific-popup.css">
+    <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/themify-icons.css">
+    <link rel="stylesheet" href="css/gijgo.css">
+    <link rel="stylesheet" href="css/nice-select.css">
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/slicknav.css">
+
+    <link rel="stylesheet" href="css/style.css">
+
+             
+<link rel="apple-touch-icon" type="image/png" href="https://cpwebassets.codepen.io/assets/favicon/apple-touch-icon-5ae1a0698dcc2402e9712f7d01ed509a57814f994c660df9f7a952f3060705ee.png">
+<meta name="apple-mobile-web-app-title" content="CodePen">
+
+<link rel="shortcut icon" type="image/x-icon" href="https://cpwebassets.codepen.io/assets/favicon/favicon-aec34940fbc1a6e787974dcd360f2c6b63348d4b1f4e06c77743096d55480f33.ico">
+
+<link rel="mask-icon" type="" href="https://cpwebassets.codepen.io/assets/favicon/logo-pin-8f3771b1072e3c38bd662872f6b673a722f4b3ca2421637d5596661b4e2132cc.svg" color="#111">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Arvo&amp;display=swap">
+    <style>
+
+.social:hover {
+     -webkit-transform: scale(1.1);
+     -moz-transform: scale(1.1);
+     -o-transform: scale(1.1);
+ }
+ .social {
+     -webkit-transform: scale(0.8);
+     /* Browser Variations: */
+     
+     -moz-transform: scale(0.8);
+     -o-transform: scale(0.8);
+     -webkit-transition-duration: 0.5s;
+     -moz-transition-duration: 0.5s;
+     -o-transition-duration: 0.5s;
+     color:white;
+ }
+ .thumb>img {
+    min-height: 242px;
+}
+/*
+    Multicoloured Hover Variations
+*/
+ 
+ #social-fb:hover {
+     color: #3B5998;
+ }
+ #social-tw:hover {
+     color: #4099FF;
+ }
+ #social-gp:hover {
+     color: #d34836;
+ }
+ #social-em:hover {
+     color: #f39c12;
+ }
+ .gallery {
+    display: grid;
+    grid-template-columns: repeat(8, 1fr);
+    grid-template-rows: repeat(6, 5vw);
+    grid-gap: 5px;
+}
+.gallery__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.gallery__item--1 {
+    grid-column-start: 1;
+    grid-column-end: 5;
+    grid-row-start: 1;
+    grid-row-end: 7;
+}
+.gallery__item--2 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.gallery__item--3 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 1;
+    grid-row-end: 4;
+}
+.gallery__item--4 {
+    grid-column-start: 5;
+    grid-column-end: 7;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+.gallery__item--5 {
+    grid-column-start: 7;
+    grid-column-end: 9;
+    grid-row-start: 4;
+    grid-row-end: 7;
+}
+figure {
+    margin: 0 0 0rem;
+}
+.navbar{
+    height:100px;
+}
+.image {
+  opacity: 1;
+  display: block;
+  width: 100%;
+  transition: .5s ease;
+  backface-visibility: hidden;
+}
+figure{
+    position: relative;
+    overflow: hidden;
+}
+.middle {
+  transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+}
+.bottom{
+  transition: .5s ease;
+  opacity: 1;
+width:100%;
+  position: absolute;
+    padding-left: 6%;
+    padding-right: 6%;
+    padding-bottom: 6%;
+    padding-top: 10%;
+    margin-bottom: -4em;
+  
+  background: -webkit-gradient(linear,left top,left bottom,color-stop(0,rgba(41,53,65,0)),color-stop(50%,rgba(41,53,65,.8)),color-stop(100%,#293541));
+    background: -webkit-linear-gradient(top,rgba(41,53,65,0) 0,rgba(41,53,65,.8) 50%,#293541 100%);
+    background: linear-gradient(to bottom,rgba(41,53,65,0) 0,rgba(41,53,65,.8) 50%,#293541 100%);
+    background-position-y: -1px;
+    bottom: -1px;
+}
+a.grid-12.btn.btn_short.box_topMargin2.zindex_linkify {
+    background: #b32b2e;
+    color: white;
+    border: none;
+}
+figure:hover .bottom{
+    margin-bottom: 0em;
+}
+
+
+figure:hover .middle {
+  opacity: 1;
+}
+
+.text {
+  background-color: #4CAF50;
+  color: white;
+  font-size: 16px;
+  padding: 16px 32px;
+}
+.text-white{
+  color: white;
+      font-size: 1em;
+      line-height: 1.15;                                                                                                                 
+}
+.btn_short {
+    padding-top: .5em;
+    padding-bottom: .5em;
+}
+.btn {
+    font-style: normal;
+    font-weight: 700;
+    letter-spacing: .1em;
+    font-size: .8em;
+    display: inline-block;
+    border: none;
+    border-radius: 0;
+    padding: 1em 2em;
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;                                                                                                
+    position: relative;
+    opacity: .9999999;
+    text-align: center;
+    overflow: hidden;
+}
+
+.box_topMargin2 {
+    margin-top: 1em;
+}
+.grid-12 {
+    width: 100%;
+}
+.primero{
+    margin-bottom: -5.1em;
+}
+.navbar {
+  padding-top: 0px;
+  padding-bottom:0px;           
+}
+@media only screen and (max-width: 600px) {
+    .gallery {
+    display:block;
+
+  }
+  .bottom{
+    margin-bottom: -5.1em;
+  }
+}
+
+	
+* {
+				margin:0px;
+				padding:0px;
+			}
+			
+			#header {
+				margin:auto;
+				width:500px;
+				font-family:Arial, Helvetica, sans-serif;
+			}
+			
+			ul, ol {
+				list-style:none;
+			}
+			
+			.nav > li {
+				float:left;
+			}
+			
+			.nav li a {
+				background-color:#000;
+				color:#fff;
+				text-decoration:none;
+				padding:10px 12px;
+				display:block;
+			}
+			
+			.nav li a:hover {
+				background-color:#434343;
+			}
+			
+			.nav li ul {
+				display:none;
+				position:absolute;
+				min-width:140px;
+			}
+			
+			.nav li:hover > ul {
+				display:block;
+			}
+			
+			.nav li ul li {
+				position:relative;
+			}
+			
+			.nav li ul li ul {
+				right:-140px;
+				top:0px;
+			}
+            .text-white{
+  color: white;
+      font-size: 1em;
+      line-height: 1.15;                                                                                                                 
+}
+nav.primary-navigation {
+  margin: 0 auto;
+  display: block;
+
+  text-align: center;
+  font-size: 16px;
+}
+nav.primary-navigation ul li {
+  list-style: none;
+  margin: 0 auto;
+ 
+  display: inline-block;
+  padding: 0 30px;
+  position: relative;
+  text-decoration: none;
+  text-align: center;
+  font-family: arvo;
+}
+nav.primary-navigation li a {
+  color: black;
+}
+nav.primary-navigation li a:hover {
+  color: #3ca0e7;
+}
+nav.primary-navigation li:hover {
+  cursor: pointer;
+}
+nav.primary-navigation ul li ul {
+  visibility: hidden;
+  opacity: 0;
+  position: absolute;
+  padding-left: 0;
+  left: 0;
+  display: none;
+  background: white;
+}
+nav.primary-navigation ul li:hover > ul,
+nav.primary-navigation ul li ul:hover {
+  visibility: visible;
+  opacity: 1;
+  display: block;
+  min-width: 250px;
+  text-align: left;
+  padding-top: 20px;
+  box-shadow: 0px 3px 5px -1px #ccc;
+}
+nav.primary-navigation ul li ul li {
+  clear: both;
+  width: 100%;
+  text-align: left;
+  margin-bottom: 20px;
+  border-style: none;
+}
+nav.primary-navigation ul li ul li a:hover {
+  padding-left: 10px;
+  border-left: 2px solid #3ca0e7;
+  transition: all 0.3s ease;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  color:#f08b1d;
+}
+
+ul li ul li a {
+  transition: all 0.5s ease;
+}
+
+nav.primary-navigation ul li ul {
+    visibility: hidden;
+    opacity: 0;
+    position: absolute;
+    padding-left: 0;
+    left: 0;
+    display: none;
+    background: white;
+    list-style: none;
+    margin: 0;
+    visibility: hidden;
+    left: 0;
+    z-index: 99;
+}
+
+a {
+    color: #5b564c;
+  
+}
+
+@media (min-width: 1200px)
+.container {
+    max-width: 1289px;
+}
+
+@media screen and (max-width: 991px) {
+	header .logo,
+	header nav {
+		width:100%;
+		text-align:center; /*Centramos el menu y el logotipo*/
+        line-height:100px; 
+       
+	} 
+
+    </style>
+    <!-- <link rel="stylesheet" href="css/responsive.css"> -->
+</head>
+
+<body data-new-gr-c-s-check-loaded="14.992.0" data-gr-ext-installed="">
+    <!--[if lte IE 9]>
+            <p class="browserupgrade">You are using an <strong>outdated</strong> browser. Please <a href="https://browsehappy.com/">upgrade your browser</a> to improve your experience and security.</p>
+        <![endif]-->
+
+    <!-- header-start -->
+  
+        <header>
+            <div class="header-area ">
+    <div id="mar" style="
+    background: #ffba00;
+    line-height: 38px;
+    font-weight: bold;
+    font-size: 20px;
+    color: red;
+    letter-spacing: 1px;
+    text-shadow: 1px 1px black;
+"><marquee behavior="scroll" direction="left" scrollamount="5" scrolldelay="65">Venezuela crisis - US NGO Providing large-scale Humanitarian Aid.</marquee></div>
+                <div class="header-top_area d-none d-lg-block" style="background-color: black;height: 60px;">
+                    <div class="container">
+                        <div class="row align-items-center" style="">
+                            <div class="col-xl-5 col-md-5 " style="/* background-color: red; *//* height: 60px; *//* text-align: center; */">
+                                <div style="
+        background-color: #eb2a31;
+        /* width: 36%; */
+        /* text-align: center; */
+        width: 60%;
+        height: 60px;
+        padding-top: 16px;
+    " class="header_left">
+                                    <a href="#" style="
+    -webkit-text-decoration-skip: objects;
+"><i class="fa fa-facebook-square fa-2x social" style="width: 25%;font-size: 2em;text-align: center;"></i></a>
+                                    <a href="#"><i class="fa fa-twitter-square fa-2x social" style="
+        width: 25%;
+        font-size: 2em;
+        text-align: center;
+    "></i></a>
+                                    <a href="#" style="
+"><i class="fa fa-instagram fa-2x social" style="
+        font-size: 2em;
+        width: 25%;
+    "></i></a>
+                                    <a href="#"><i class="fa fa-youtube-square fa-2x social" style="font-size: 2em;"></i></a>
+                                    
+                                </div>
+                            </div>
+                            <div class="col-xl-7 col-md-7">
+                                <div class="header_right d-flex justify-content-end" style="
+    ">
+                                    <a href="donate-now/index.html" class="boxed-btn3" style="
+        text-decoration: none;
+        font-family: 'Work Sans';
+        font-size: 17px;
+        line-height: 60px;
+        height: 60px;
+        letter-spacing: 2px;
+        color: #fff;
+        font-style: normal;
+        font-weight: bold;
+        padding: 0px;
+        background-color: #eb2a31;
+        width: 25%;
+        text-align: center;
+    ">DONATE NOW</a>
+                                </div>
+    
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div style="
+        height: 169px;
+        padding-top: 12px;
+        padding-right: 80px;
+    " class="address_bar d-none d-lg-block">
+                    <div class="container">
+                        <div class="row justify-content-between align-items-center">
+                            <div class="col-xl-3 col-lg-3">
+                                <div class="logo">
+                                    <a href="index.html">
+                                        <img src="logo.jpg" style="width: 254px;" alt="">
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="col-lg-9">
+                                <div class="address_menu d-flex justify-content-end">
+                                    <div class="single_address  d-flex" style="
+        width: 30%;
+    ">
+                                        <div class="icon" style="
+        width: 50px;
+        height: 50px;
+        background: #FFBA00;
+        text-align: center;
+        border-radius: 3px;
+    ">
+                                            <i style="
+        font-size: 1em;
+        line-height: 50px;
+    " class="fa fa-envelope fa-2x"></i>
+                                        </div>
+                                        <div class="address_info" style="
+        margin-left: 24px;
+    ">
+                                            <h3 style="
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 1px;
+    ">Email</h3>
+                                            <a href="mailto:donate@sai.ngo">donate@sai.ngo</a>
+                                        </div>
+                                    </div>
+                                    <div class="single_address d-flex">
+                                        <div class="icon" style="
+        width: 50px;
+        height: 50px;
+        background: #FFBA00;
+        text-align: center;
+        border-radius: 3px;
+    ">
+                                            <i style="
+        line-height: 50px;
+        font-size: 1em;
+    " class="fa fa-phone fa-2x"></i>
+                                        </div>
+                                        <div class="address_info" style="
+        margin-left: 20px;
+    ">
+                                            <h3 style="
+        font-weight: bold;
+        text-transform: uppercase;
+        font-size: 13px;
+        letter-spacing: 1px;
+    ">Call Us</h3>
+                                            <a href="tel:800-563-6099">(800) 563-6099</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div id="sticky-header" class="main-header-area" style="
+    padding-right: 207px;
+">
+                    <div class="container">
+                        <div class="white_bg_bar">
+                            <div class="row align-items-center" style="
+">
+                                <div class="col-12 d-lg-none">
+                                    <div class="logo ">
+                                        <a href="#">
+                                            <img src="logo.png" style="width:140px;" alt="">
+                                        </a>
+                                    </div>
+                                </div>
+                                <div class="col-xl-8 col-lg-8" style="
+">
+                                    <div class="main-menu d-lg-block" style="
+    width: 688px;
+">
+                                   
+                                            <link href="https://fonts.googleapis.com/css?family=Arvo&amp;display=swap" rel="stylesheet">
+    
+                                            <nav role="navigation" class="primary-navigation">
+                                              <ul style="
+        display: inline-block;
+        vertical-align: middle;
+        font-family: 'Raleway';
+        letter-spacing: 0px;
+        font-style: normal;
+        font-weight: 800;
+        width: 123%;
+    ">
+                                                <li style="
+    "><a href="#" style="color: #eba53a;">HOME</a></li>  <li style="
+    "><a href="about-us/index.html" style=""> ABOUT US</a></li>
+                                                <li><a href="#" style="
+        width: 100%;
+    ">CAMPAINGS ▾</a>
+                                                  <ul class="dropdown" style="
+    width: 311px;
+">
+                                                    <li><a href="#">Help venezuela</a></li>
+                                                    <li><a href="#">Help venezuela Orphans</a></li>
+                                                    <li><a href="#">Help Venezuelan Hospitals</a></li>
+                                                    <li><a href="#">Help Abandoned Venezuelan Pets</a></li>
+                                                    <li><a href="#">Help Venezuelan Refugees</a></li>
+                                                    <li><a href="#">Endangered Animal Rescue Fund</a></li>
+                                                    <li><a href="#">Latin American Education Fund</a></li>
+                                                    <li><a href="#">Life-Saving Neurosurgery</a></li>
+                                                  </ul>
+                                                </li>
+                                                <li><a href="#">CONTACT US</a></li>
+                                                <li><a href="#" style="
+        width: 100%;
+    ">More Ways To Help ▾</a>
+                                                  <ul class="dropdown" style="
+    width: 363px;
+">
+                                                    <li><a href="#">Employeer matching and volunteering</a></li>
+                                                    <li><a href="#">Donor Advised Funds</a></li>
+                                                    <li><a href="#">How to Donate Cryptocurrency</a></li>
+                                                    
+                                                  </ul>
+                                                </li>
+                                              </ul>
+                                            </nav>
+                                     
+                                    </div>
+                                </div>
+                                <div class="col-xl-4 col-lg-4 d-none d-lg-block" style="padding-left: 151px;position: inherit;">
+                                    <div class="Appointment d-flex justify-content-end" style="
+    padding-left: 380px;
+">
+                                        <a href="#" class="boxed-btn3"></a><div>
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAHzSURBVHjaYkxOP8IAB//+Mfz7w8Dwi4HhP5CcJb/n/7evb16/APL/gRFQDiAAw3JuAgAIBEDQ/iswEERjGzBQLEru97ll0g0+3HvqMn1SpqlqGsZMsZsIe0SICA5gt5a/AGIEarCPtFh+6N/ffwxA9OvP/7//QYwff/6fZahmePeB4dNHhi+fGb59Y4zyvHHmCEAAAW3YDzQYaJJ93a+vX79aVf58//69fvEPlpIfnz59+vDhw7t37968efP3b/SXL59OnjwIEEAsDP+YgY53b2b89++/awvLn98MDi2cVxl+/vl6mituCtBghi9f/v/48e/XL86krj9XzwEEEENy8g6gu22rfn78+NGs5Ofr16+ZC58+fvyYwX8rxOxXr169fPny+fPn1//93bJlBUAAsQADZMEBxj9/GBxb2P/9+S/R8u3vzxuyaX8ZHv3j8/YGms3w8ycQARmi2eE37t4ACCDGR4/uSkrKAS35B3TT////wADOgLOBIaXIyjBlwxKAAGKRXjCB0SOEaeu+/y9fMnz4AHQxCP348R/o+l+//sMZQBNLEvif3AcIIMZbty7Ly6t9ZmXl+fXj/38GoHH/UcGfP79//BBiYHjy9+8/oUkNAAHEwt1V/vI/KBY/QSISFqM/GBg+MzB8A6PfYC5EFiDAABqgW776MP0rAAAAAElFTkSuQmCC" title="English" alt="English" style="
+">
+    </div>  
+
+
+<div style="padding-left: 39px;">
+<img src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAALCAIAAAD5gJpuAAAABGdBTUEAAK/INwWK6QAAABl0RVh0U29mdHdhcmUAQWRvYmUgSW1hZ2VSZWFkeXHJZTwAAAFnSURBVHjaYvzPgAD/UNlYEUAAmuTYAAAQhAEYqF/zFbe50RZ1cMmS9TLi0pJLRjZohAMTGFUN9HdnHgEE1sDw//+Tp0ClINW/f0NIKPoFJH/9//ULyGaUlQXaABBALAx/Gf4zAt31F4i+ffj3/cN/XrFfzOx//v///f//LzACM/79ZmD8/e8TA0AAMYHdDVT958vXP38nMDB0s3x94/Tj5y+YahhiAKLfQKUAAcQEdtJfoDHMF2L+vPzDmFXLelf551tGFOOhev4A/QgQQExgHwAd8IdFT/Wz6j+GhlpmXSOW/2z///8Eq/sJ18Dw/zdQA0AAMQExxJjjdy9x2/76EfLz4MXdP/i+wsyGkkA3Aw3984cBIIAYfzIwMKel/bt3jwEaLNAwgZIQxp/fDH/+MqqovL14ESCAWICeZvr9h0FSEhSgwBgAygFDEMT+wwAhgQgc4kAEVAwQQIxfUSMSTxxDAECAAQAJWke8v4u1tAAAAABJRU5ErkJggg==" title="Español" alt="Español"></div>
+                                    </div>
+                                </div>
+                                <div class="col-12">
+                                    <div class="mobile_menu d-block d-lg-none">
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </div>
+      
+    </header>
+    <!-- header-end -->
+
+    <div style="display:block;margin-top: 12px;width: auto;">   
+        <div class="gallery">
+            <figure class="gallery__item gallery__item--1 ">
+              <img src="6.jpg" class="gallery__img image" alt="Image 1">
+                <div class="bottom primero">
+                    <div class="text-white">
+                        <h4><a>Help Venezuelan Orphans</a></h4>
+                    </div>
+                    <a href="#" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" "="">Donate</a>
+                </div>
+            </figure>
+    
+            <figure class="gallery__item gallery__item--2">
+              <img src="changed_DSC00877__copia_Large-min.jpg" class="gallery__img image" alt="Image 2">
+                <div class="bottom">
+                    <div class="text-white">
+                        <h4><a>Help Abandoned Venezuelan Pets</a></h4>
+                    </div>
+                    <a href="#" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" "="">Donate</a>
+                </div>
+    
+            </figure>
+    
+            <figure class="gallery__item gallery__item--3">
+              <img src="SAINGO2-Hospitals321--1024x768.jpg" "="" class="gallery__img image" alt="Image 3">
+                  <div class="bottom">
+                    <div class="text-white">
+                        <h4><a>Help Venezuelan Hospital</a></h4>
+                    </div>
+                    <a href="#" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" "="">Donate</a>
+                </div>
+               
+    
+            </figure>
+            <figure class="gallery__item gallery__item--4">
+                <img src="Refugees.River_.Cross_.png" class="image gallery__img image" alt="Image 4">
+                <div class="bottom">
+                    <div class="text-white">
+                        <h4><a>Help Venezuelan Refugees</a></h4>
+    
+                    </div>
+                 <a href="#" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" "="">Donate</a>
+                </div>
+            </figure>
+            <figure class="gallery__item gallery__item--5">
+              <img src="PHOTO-2019-04-02-16-34-312-1024x791.jpg" class="image gallery__img" alt="Image 5">
+                <div class="bottom">
+                    <div class="text-white">
+                        <h4><a>Endangered Animal Rescue </a></h4>
+    
+                    </div>
+                    <a href="#" class="grid-12 btn btn_short box_topMargin2 zindex_linkify" "="">Donate</a>
+                </div>
+            </figure>
+    
+          </div>
+        </div> <div style="
+                            height: 76px;
+                            background: #e7e5e1;
+                            line-height: 70px;
+                            color: black;
+                            /* position: absolute; */
+                            z-index: 1;
+                            width: 100%;
+                            padding-left: 15px;
+                            "><ul class="lista" style="
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    letter-spacing: .05em;
+    font-size: .8em;
+    padding-left: 35px;
+    padding-right: 35px;
+    font-size: 14px;
+">
+            <li class="hero"><a href="https://sai.ngo/awards-and-rankings/" style="
+    font-size: 16px;
+">Awards and rankings</a></li>
+            <li><a href="https://sai.ngo/how-employees-of-fortune-500-companies-can-help-venezuela/"><span>Employeer matching and volunteering</span></a></li>
+            <li><a href="https://sai.ngo/donor-advised-funds-donations-daf-venezuelan/"><span>Donor Advised Funds</span></a></li>
+            <li><a href="https://sai.ngo/how-to-donate-cryptocurrency-to-help-venezuela/"><span>How to Donate Cryptocurrency</span></a></li>
+        </ul></div> <div class="service_info" style="padding-top: 28px;/* height: 319px; */">
+                                   
+			<h4>&nbsp;</h4>
+<h1 style="text-align: center;"><strong>Donate To Help Venezuela Today</strong></h1>
+<h4 class="container" style="text-align: center;"><strong style="
+    line-height: 24px;
+    /* letter-spacing: 0.16px; */
+    font-family: 'Montserrat';
+    font-size: 21px;
+    letter-spacing: 0.16px;
+">Make a tax deductible donation to <a href="https://sai.ngo/project/help-venezuela/" style="color: #db403e;">help Venezuela</a> from our website. We are a 501(c)(3) nonprofit organization commited to providing relief to the most poverty stricken people and areas of our beloved Venezuelan nation.Your secure online donation will help to provide necessary food, clothes, and more to <a href="https://sai.ngo/project/orphans-venezuela/" style="
+    color: #db403e;
+">Venezuelan orphans</a>, <a href="https://sai.ngo/project/hospitals/" style="
+    color: #db403e;
+">hospitals</a>, and more. Learn more about our organization when you visit our <a href="https://sai.ngo/about-us/" style="
+    color: #db403e;
+">about us</a> </strong>page.</h4>
+<p>&nbsp;</p>
+
+                                </div>
+
+    <!-- features_area_start -->
+    <div class="features_area">
+        <div style="
+    box-sizing: border-box;
+    /* width: auto; */
+" class="single_service">
+                     
+<div style="">
+<table style="
+    width: 100%;
+">
+<tbody>
+<tr>
+<td style="
+    width: 25%;
+    background: #f7f7f7 url(orfanato2-1-min.jpg) !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 52px;
+    min-height: 60vh !important;
+    height: 533px;
+">
+ <div style="
+    background: #0000009c;
+    height: 138px;
+    /* width: 61%; */
+    padding: 15px;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 160px;
+"><div>
+  <div class="vc-custom-inner-wrap" style="
+">
+    <h2 style="font-size: 35px;color: #eba53a;/* line-height: 35px; */text-align: center;font-family:Raleway;font-weight:800;font-style:normal;padding-bottom: 3px;padding-top: 21px;"><span class="counterUp" data-bears-counterup="125">125</span></h2>  </div>
+</div>
+<p style="color: #ffffff;text-align: center;font-family:Raleway;font-weight:400;font-style:normal;margin-bottom: 50px !important;border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 1px !important;border-left-width: 1px !important;padding-top: 10px !important;padding-right: 10px !important;padding-bottom: 5px !important;padding-left: 10px !important;border-left-color: rgba(255,255,255,0.47) !important;border-left-style: solid !important;border-right-color: rgba(255,255,255,0.47) !important;border-right-style: solid !important;border-top-color: rgba(255,255,255,0.47) !important;border-top-style: solid !important;border-bottom-color: rgba(255,255,255,0.47) !important;border-bottom-style: solid !important;border-radius: 1px !important;background: #eb2a31;" class="vc_custom_heading vc_custom_1591117333240">Volunteer Helpers</p></div>
+    
+</td>
+<td style="
+    width: 25%;
+    background: #3a3a3a url(20190503_151356-min.jpg) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 52px;
+    min-height: 60vh !important;
+    height: 533px;
+">
+ <div style="
+    background: #0000009c;
+    padding: 15px;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 160px;
+"><div>
+  <div class="vc-custom-inner-wrap" style="
+">
+    <h2 style="font-size: 35px;color: #eba53a;text-align: center;font-family:Raleway;font-weight:800;font-style:normal;padding-bottom: 3px;padding-top: 21px;"><span class="counterUp" data-bears-counterup="125">23,455</span></h2>  </div>
+</div>
+<p style="color: #ffffff;text-align: center;font-family:Raleway;font-weight:400;font-style:normal;margin-bottom: 50px !important;border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 1px !important;border-left-width: 1px !important;padding-top: 10px !important;padding-right: 10px !important;padding-bottom: 5px !important;padding-left: 10px !important;border-left-color: rgba(255,255,255,0.47) !important;border-left-style: solid !important;border-right-color: rgba(255,255,255,0.47) !important;border-right-style: solid !important;border-top-color: rgba(255,255,255,0.47) !important;border-top-style: solid !important;border-bottom-color: rgba(255,255,255,0.47) !important;border-bottom-style: solid !important;border-radius: 1px !important;background: #eb2a31;" class="vc_custom_heading vc_custom_1591117333240">People Helped</p></div>
+</td>
+    
+<td style="
+    width: 25%;
+    background: #3a3a3a url(https://sai.ngo/wp-content/uploads/2019/05/SAINGOHospitals25-1.jpg?id=4390) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 52px;
+    min-height: 60vh !important;
+    height: 533px;
+">
+ 
+<div style="
+    background: #0000009c;
+    padding: 15px;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 160px;
+"><div>
+  <div class="vc-custom-inner-wrap" style="
+">
+    <h2 style="font-size: 35px;color: #eba53a;text-align: center;font-family:Raleway;font-weight:800;font-style:normal;padding-bottom: 3px;padding-top: 21px;"><span class="counterUp" data-bears-counterup="125">70,786</span></h2>  </div>
+</div>
+<p style="color: #ffffff;text-align: center;font-family:Raleway;font-weight:400;font-style:normal;margin-bottom: 50px !important;border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 1px !important;border-left-width: 1px !important;padding-top: 10px !important;padding-right: 10px !important;padding-bottom: 5px !important;padding-left: 10px !important;border-left-color: rgba(255,255,255,0.47) !important;border-left-style: solid !important;border-right-color: rgba(255,255,255,0.47) !important;border-right-style: solid !important;border-top-color: rgba(255,255,255,0.47) !important;border-top-style: solid !important;border-bottom-color: rgba(255,255,255,0.47) !important;border-bottom-style: solid !important;border-radius: 1px !important;background: #eb2a31;" class="vc_custom_heading vc_custom_1591117333240">Meals Distributed</p></div>
+    
+    
+</td>
+    
+ <td style="
+    width: 25%;
+    background: #3a3a3a url(https://sai.ngo/wp-content/uploads/2018/03/7.jpg?id=1836) !important;
+    background-position: center !important;
+    background-repeat: no-repeat !important;
+    background-size: cover !important;
+    padding: 52px;
+">
+ <div style="
+    background: #0000009c;
+    height: 138px;
+    /* width: 61%; */
+    padding: 15px;
+    justify-content: center;
+    padding-bottom: 0px;
+    padding-top: 0px;
+    height: 160px;
+"><div>
+  <div class="vc-custom-inner-wrap" style="
+">
+    <h2 style="font-size: 35px;color: #eba53a;/* line-height: 35px; */text-align: center;font-family:Raleway;font-weight:800;font-style:normal;padding-bottom: 3px;padding-top: 21px;"><span class="counterUp" data-bears-counterup="125">70,786</span></h2>  </div>
+</div>
+<p style="color: #ffffff;text-align: center;font-family:Raleway;font-weight:400;font-style:normal;margin-bottom: 50px !important;border-top-width: 1px !important;border-right-width: 1px !important;border-bottom-width: 1px !important;border-left-width: 1px !important;padding-top: 10px !important;padding-right: 10px !important;padding-bottom: 5px !important;padding-left: 10px !important;border-left-color: rgba(255,255,255,0.47) !important;border-left-style: solid !important;border-right-color: rgba(255,255,255,0.47) !important;border-right-style: solid !important;border-top-color: rgba(255,255,255,0.47) !important;border-top-style: solid !important;border-bottom-color: rgba(255,255,255,0.47) !important;border-bottom-style: solid !important;border-radius: 1px !important;background: #eb2a31;" class="vc_custom_heading vc_custom_1591117333240">Educated Children</p></div>
+</td>   
+</tr>
+</tbody>
+</table>
+
+</div>
+                            </div>
+    </div>
+    <!-- features_area_end -->
+
+    <!-- about_area_start  -->
+    <div class="about_area">
+        <div class="container">
+            <div class="border_1px">
+                <div class="row align-items-center">
+                    <div class="col-xl-6  col-md-6">
+                        <div class="about_thumb">
+                            <img src="orfanato2.jpg" alt="">
+                            <div class="pattern_img d-none d-lg-block">
+                                <img src="img/pattern/pattern.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-xl-6 col-md-6">
+                        <div class="about_info">
+                            <h3>Donate To Help Venezuela Today</h3>
+                            <p class="first_para"> Make a tax deductible donation to help Venezuela from our website. 
+                                We are a 501(c)(3) nonprofit organization commited to providing relief to the most poverty stricken people and areas of our beloved Venezuelan nation.</p>
+
+                            <p>Your secure online donation will help to provide necessary food, clothes, and more to Venezuelan orphans, hospitals, and more. Learn more about our organization when you visit our about us page.</p>
+                            <a href="about.html" class="boxed-btn3">About Us</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- about_area_end  -->
+
+    <!-- service_area_start  -->
+    <div class="service_area" style="
+    width: 100%;
+">
+    
+    <img style="width:100%" src="mapa-1-min.jpg">
+        <div class="container" style="
+    width: 100%;
+">
+         
+            <div class="border_bottom_1px position-relative">
+                <div class="pattern_img d-none d-xl-block">
+                    <img src="img/pattern/pattern.png" alt="">
+                </div>
+                <div class="row">
+                    <div class="col-xl-12">
+                        <section data-vc-full-width="true" data-vc-full-width-init="true" class="vc_section vc_custom_1501050157575 vc_section-has-fill" style="position: relative; left: -35px; box-sizing: border-box; width: 1240px; padding-left: 35px; padding-right: 35px;"><div id="sponsors-row" class="vc_row wpb_row vc_row-fluid"><div class="wpb_column vc_column_container vc_col-sm-12"><div class="vc_column-inner "><div class="wpb_wrapper"><h2 style="text-align: center;font-family:Raleway;font-weight:800;font-style:normal" class="vc_custom_heading">Nuestros <u>Patrocinadores</u>.</h2><p style="text-align: center;font-family:Raleway;font-weight:300;font-style:normal" class="vc_custom_heading wpb_animate_when_almost_visible wpb_top-to-bottom top-to-bottom wpb_start_animation animated">Iniciativa Suramericana agradece a las siguientes organizaciones y personas por su generoso apoyo e inversión en nuestra organización sin fines de lucro.</p><div class="wpb_theme_custom_element wpb_base_carousel vc_custom_1541787830300">
+	<div class="vc-custom-inner-wrap">
+		<div class="owl-carousel owl-loaded owl-drag" data-bears-owl-carousel="eyJpdGVtcyI6NCwibWFyZ2luIjozMCwibG9vcCI6MCwiY2VudGVyIjowLCJzdGFnZVBhZGRpbmciOjAsInN0YXJ0UG9zaXRpb24iOjAsIm5hdiI6MCwiZG90cyI6MCwic2xpZGVCeSI6MSwiYXV0b3BsYXkiOjEsImF1dG9wbGF5SG92ZXJQYXVzZSI6MCwiYXV0b3BsYXlUaW1lb3V0Ijo1MDAwLCJzbWFydFNwZWVkIjoyNTAsInJlc3BvbnNpdmUiOnsiMCI6eyJpdGVtcyI6MSwic3RhZ2VQYWRkaW5nIjowfSwiNDgwIjp7Iml0ZW1zIjoyLCJzdGFnZVBhZGRpbmciOjB9LCI3NjgiOnsiaXRlbXMiOjMsInN0YWdlUGFkZGluZyI6MH0sIjEwMDAiOnsiaXRlbXMiOjQsInN0YWdlUGFkZGluZyI6MH19fQ==">
+					<div class="owl-stage-outer"><div class="owl-stage" style="transform: translate3d(-570px, 0px, 0px); transition: all 0.25s ease 0s; width: 1710px;"><div class="owl-item" style="width: 255px; margin-right: 30px;"><div class="item"><div class="item-inner slider-item-style vc_custom_1541787830298"><img src="https://sai.ngo/wp-content/uploads/2017/06/vargas-logo-resized.png" alt="#"></div></div></div><div class="owl-item" style="width: 255px; margin-right: 30px;"><div class="item"><div class="item-inner slider-item-style vc_custom_1541787830298"><img id="blankit-logo" src="https://sai.ngo/wp-content/uploads/2017/06/Blankit-Logo3-300_width.png" alt="#"></div></div></div><div class="owl-item active" style="width: 255px; margin-right: 30px;"><div class="item"><div class="item-inner slider-item-style vc_custom_1541787830298"><img id="global-giving-logo" src="https://sai.ngo/wp-content/uploads/2017/06/edge-cutted-GV-Logo.png" alt="#"></div></div></div><div class="owl-item active" style="width: 255px; margin-right: 30px;"><div class="item"><div class="item-inner slider-item-style vc_custom_1541787830298"><img id="google-logo" src="https://sai.ngo/wp-content/uploads/2017/06/2000px-Google_2015_logo_300_width.png" alt="#"></div></div></div><div class="owl-item active" style="width: 255px; margin-right: 30px;"><div class="item"><div class="item-inner slider-item-style vc_custom_1541787830298"><img id="google-logo" src="https://sai.ngo/wp-content/uploads/2018/05/Benevity-472x129.png" alt="#"></div></div></div><div class="owl-item active" style="width: 255px; margin-right: 30px;"><div class="item"><div class="item-inner slider-item-style vc_custom_1541787830298"><img id="pet-fund" src="https://sai.ngo/wp-content/uploads/2018/11/AG-animal-assistance-fund2.png" alt="#"></div></div></div></div></div><div class="owl-nav disabled"><button type="button" role="presentation" class="owl-prev"><i class="ion-ios-arrow-left" title="Previous"></i></button><button type="button" role="presentation" class="owl-next"><i class="ion-ios-arrow-right" title="Next"></i></button></div><div class="owl-dots disabled"></div></div>
+	</div>
+</div>
+<p style="text-align: center;font-family:Raleway;font-weight:300;font-style:normal" class="vc_custom_heading wpb_animate_when_almost_visible wpb_top-to-bottom top-to-bottom wpb_start_animation animated">Si estás interesado en convertirte en patrocinador, comunícate con Steven Malca, Director Ejecutivo, a través de <strong>steven@sai.ngo</strong> para obtener información sobre las oportunidades de patrocinio.</p></div></div></div></div></section>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- service_area_end  -->
+
+    <!-- gallery_area-START -->
+    <div class="gallery_area">
+        <div class="container">
+            <div class="gallery_nav">
+                <div class="row align-items-center">
+                    <div class="col-lg-8 col-md-6">
+                        <h3 class="gallery_title">Our Campaigns</h3>
+                    </div>
+                    <div class="col-lg-4 col-md-6">
+                        <div class="portfolio-menu">
+                            <button class="active" data-filter="*">All</button>
+                            <button data-filter=".cat1">Pets</button>
+                            <button data-filter=".cat2">Children</button>
+                            <button data-filter=".cat3">Hospital</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="container-fluid p-0">
+            <div class="row grid no-gutters">
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat3 cat3">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <div style="    height: 50px;
+                            background: rgba(0, 0, 0, 0.58);
+                            line-height: 50px;
+                            color: white;
+                            position: absolute;
+                            z-index: 1;
+                            width: 100%;
+                            padding-left: 15px;">Help Abandoned Pets</div>
+                            <img src="IMG_7568_Large.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Donate now
+                                </h3>
+                                <div class="icon">
+                                    <a href="">
+                                        <i class="fa fa-paw"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat3">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <div style="    height: 50px;
+                            background: rgba(0, 0, 0, 0.58);
+                            line-height: 50px;
+                            color: white;
+                            position: absolute;
+                            z-index: 1;
+                            width: 100%;
+                            padding-left: 15px;">Help Venezuelan Orphans</div>
+                            <img src="Orphans-Campaign.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3> Donate now </h3>
+                                <div class="icon">
+                                        <a href="">
+                                        <i class="fa fa-child"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat2">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <div style="    height: 50px;
+                            background: rgba(0, 0, 0, 0.58);
+                            line-height: 50px;
+                            color: white;
+                            position: absolute;
+                            z-index: 1;
+                            width: 100%;
+                            padding-left: 15px;">Help Venezuelan Hospitals</div>
+                            <img src="SAINGO2-Hospitals321--1024x768.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Donate now</h3>
+                                <div class="icon">
+                                        <a href="#">
+                                            <i class="fas fa-syringe"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat1 cat3">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                                        <div style="    height: 50px;
+                            background: rgba(0, 0, 0, 0.58);
+                            line-height: 50px;
+                            color: white;
+                            position: absolute;
+                            z-index: 1;
+                            width: 100%;
+                            padding-left: 15px;">Help Venezuela</div>
+          
+                            <img src="venezuelamap.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Donate now</h3>
+                                <div class="icon">
+                                        <a href="#">
+                                        <i class="fa fa flag"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat2 cat3 cat4">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <div style="    height: 50px;
+                            background: rgba(0, 0, 0, 0.58);
+                            line-height: 50px;
+                            color: white;
+                            position: absolute;
+                            z-index: 1;
+                            width: 100%;
+                            padding-left: 15px;">Help Venezuelan Refugees</div>
+                            <img src="Webp.net-resizeimage-1.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Donate now</h3>
+                                <div class="icon">
+                                        <a href="#">
+                                        <i class="fa fa-home"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat1 cat2">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <div style="    height: 50px;
+                            background: rgba(0, 0, 0, 0.58);
+                            line-height: 50px;
+                            color: white;
+                            position: absolute;
+                            z-index: 1;
+                            width: 100%;
+                            padding-left: 15px;">Endangered Animal Rescue Fund</div>
+                            <img src="PHOTO-2019-04-02-16-34-312-1024x791.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Donate now</h3>
+                                <div class="icon">
+                                        <a href="#">
+                                        <i class="ti-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat4 cat1">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <div style="    height: 50px;
+                            background: rgba(0, 0, 0, 0.58);
+                            line-height: 50px;
+                            color: white;
+                            position: absolute;
+                            z-index: 1;
+                            width: 100%;
+                            padding-left: 15px;">Latin American Education Fund</div>
+                            <img src="11183453_972032552810009_7336865913560178177_n-1.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Donate now</h3>
+                                <div class="icon">
+                                        <a href="#">
+                                        <i class="ti-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-xl-3 col-lg-3 col-md-6 grid-item cat1 cat2 cat3 cat4">
+                    <div class="single_gallery">
+                        <div class="thumb">
+                            <div style="    height: 50px;
+                            background: rgba(0, 0, 0, 0.58);
+                            line-height: 50px;
+                            color: white;
+                            position: absolute;
+                            z-index: 1;
+                            width: 100%;
+                            padding-left: 15px;">Life-Saving Neurosurgery</div>
+                            <img src="20190503_145311-2-1024x768.jpg" alt="">
+                        </div>
+                        <div class="gallery_hover">
+                            <div class="hover_inner d-flex align-items-center justify-content-between">
+                                <h3>Donate now</h3>
+                                <div class="icon">
+                                        <a href="#">
+                                        <i class="ti-angle-right"></i>
+                                    </a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- chose_us_area start -->
+    <div class="chose_us_area chose_bg_1">
+        <div class="container">
+            <div class="row justify-content-end">
+                <div class="col-lg-6 col-md-8">
+                    <div class="chose_info">
+                        <h3>Why Choose Us?</h3>
+                        <p class="lasrge_text">
+                            “Construction is a full service construction company offering building solutions from start
+                            to finish. Our staff has been operating on NYC for ten years.
+                        </p>
+                        <p>There are many variations of passages of lorem Ipsum available, but the majority have
+                            suffered alteration in some form, by injected.</p>
+                        <div class="icon_video">
+                            <a class="popup-video" href="https://www.youtube.com/watch?v=Spi1vvZgLXw">
+                                <i class="fa fa-caret-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- chose_us_area end -->
+    <div class="testimonial_area ">
+        <div class="container">
+            <div class="row">
+                <div class="col-xl-12">
+                        <div class="section_title text-center mb-55">
+                                <h3>Testimonials</h3>
+                            </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-xl-12">
+                    <div class="testmonial_active owl-carousel">
+                        <div class="single_carousel">
+                            <div class="single_testmonial text-center">
+                                <div class="testmonial_author">
+                                    <div class="thumb">
+                                        <img src="img/testimonial/1.png" alt="">
+                                    </div>
+                                    <h4>Jordan Adams</h4>
+                                    <span>Client</span>
+                                </div>
+                                <p>“Our program is guided by the developmental milestones which embrace <br>
+                                    the six most important learning domains in education”</p>
+                            </div>
+                        </div>
+                        <div class="single_carousel">
+                            <div class="single_testmonial text-center">
+                                <div class="testmonial_author">
+                                    <div class="thumb">
+                                        <img src="img/testimonial/1.png" alt="">
+                                    </div>
+                                    <h4>Jordan Adams</h4>
+                                    <span>Client</span>
+                                </div>
+                                <p>“Our program is guided by the developmental milestones which embrace <br>
+                                    the six most important learning domains in education”</p>
+                            </div>
+                        </div>
+                        <div class="single_carousel">
+                            <div class="single_testmonial text-center">
+                                <div class="testmonial_author">
+                                    <div class="thumb">
+                                        <img src="img/testimonial/1.png" alt="">
+                                    </div>
+                                    <h4>Jordan Adams</h4>
+                                    <span>Client</span>
+                                </div>
+                                <p>“Our program is guided by the developmental milestones which embrace <br>
+                                    the six most important learning domains in education”</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact_us_start  -->
+    <div class="contact_us overlay">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-8 col-md-7">
+                    <div class="contact_text">
+                        <h3>Are you looking for a Construction
+                            and Industrial Experts?</h3>
+                    </div>
+                </div>
+                <div class="col-lg-4 col-md-5">
+                    <div class="contact_btn">
+                        <a class="boxed-btn3" href="contact.html">Contact Us</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- contact_us_end -->
+
+    <!-- footer_start  -->
+    <footer class="footer">
+        <div class="download_brochure">
+            <div class="container">
+                <div class="bordered_1px">
+                        <div class="row">
+                                <div class="col-lg-6 col-md-6">
+                                        <div class="footer_logo">
+                                                <a href="#">
+                                                    <img src="img/footer_logo.png" alt="">
+                                                </a>
+                                            </div>
+                                </div>
+                                <div class="col-lg-6 col-md-6">
+                                    <div class="download_btn">
+                                        <a href="#"> <img src="img/icon/down.svg" alt=""> Download Brochure</a>
+                                    </div>
+                                </div>
+                            </div>
+                </div>
+                
+            </div>
+        </div>
+        <div class="footer_top">
+            <div class="container">
+                <div class="row">
+                    <div class="col-xl-3 col-md-6 col-lg-3 ">
+                       
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right_text">
+            <div class="container" style="max-width: 1263px;padding-left: 0px;padding-right: 0px;">
+                <div class="footer_border" style="
+"><div class="row-fluid" id="stats" style="text-align: center;background-color:#1f1f1f;padding-top: 53px;">
+        <div class="container" style="width:auto;">
+    
+    <div id="address-container" style="
+    width: 100%;
+    margin-right: 10px;
+    font-size: 14px;
+    display: flex;
+    justify-content: center;
+">
+    <div id="usa-address" style="
+    display: flex;
+">
+      <div class="footer-address " style="color:#898d8e;text-align: center;"> <i style="
+        font-size: 1em;
+        line-height: 50px;
+        color: yellow;
+    " class="fa fa-address"></i> <i class="fa fa-location fa-2x" style="
+    color: yellow;
+"></i> 
+    8211 W Broward Blvd Ste 410 Plantation, FL 33324</div>
+      <div class="footer-phone-numb" style="color:#898d8e;text-align: center;/* display: flex; */padding-left: 22px;"><i style="
+        /* line-height: 50px; */
+        font-size: 1em;
+        color: #eba53a;
+    " class="fa fa-phone fa-2x"></i> 800-563-6099</div>
+      <div class="footer-mail-address" style="color:#898d8e;text-align: center;padding-left: 23px;"><i style="
+        font-size: 1em;
+        /* line-height: 50px; */
+        color: #eba53a;
+    " class="fa fa-envelope fa-2x"></i> donate@sai.ngo</div>
+      </div>
+    </div>
+
+    <p class="about-footer" style="color:#898d8e;text-align: center;font-size: 14px;width: 100%;margin-left: 0px;margin-right: 0px;padding-left: 27px;padding-right: 21px;padding-top: 12px;margin: 0 0 10px;">South American Initiative is a 501(c)(3) charitable organization  EIN 81-1747993. All the contributions are tax deductible to the extent permitted by law. <br> No goods or services will be provided in exchange for the contribution.</p>  
+<hr style="
+    width: 35%;
+    opacity: 0.3;
+"> 
+
+  <div class="globalgiv-logo-footer">
+<p style="
+"><a href="https://www.globalgiving.org/donate/42484/south-american-initiative/"><img class="alignnone" style="max-width: 100%;width: 145px;margin-top: 0px;" src="unnamed.png" alt="#"> <img class="alignnone" style="max-width: 25%;width: 185px;margin-top: 0px;/* display: flex; */" src="unnamed (2).png" alt="#">
+
+
+
+<img class="alignnone" style="
+    width: 154px;
+    height: 146px;
+" src="Guidestar-platinum-seal-2020.png" alt="#" width="300" height="276">
+
+<img class="alignnone" style="
+    width: 161px;
+    height: 147px;
+" src="unnamed (1).png" alt="#" width="300" height="276"></a></p>
+
+
+
+</div>
+
+</div>
+
+
+  <div class="ssl-logo-footer">
+<p><img style="max-width: 100%; width: 90px; margin-top: 0px;" src="https://sai.ngo/wp-content/uploads/2017/06/ssl-logo.png" alt="#"></p>
+<p style="height: 44px;"><a href="http://newsai.malcamedia.com/privacy-policy/" target="_blank" rel="noopener noreferrer" style="color:#898d8e; font-size: 10px;">Privacy Policy</a>   <a href="http://newsai.malcamedia.com/donor-privacy-policy/" target="_blank" rel="noopener noreferrer" style="color:#898d8e; font-size: 10px;">Donor Privacy Policy</a></p>
+
+<div class="row" style="background-color: #eb2a31;margin-right: 0px;">
+                    <div class="col-xl-12">
+                        <p class="copy_right text-center" style="
+">
+                         
+</p><div class="bt-copyright" style="
+    line-height: 20px;
+    letter-spacing: 0px;
+    color: #fff;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    font-family: 'Work Sans';
+    height: 44px;
+">Copyright ©2020 <a rel="nofollow" href="https://sai.ngo" style="
+    color: white;
+">South American Initiative</a>. All Rights Reserved</div>
+                    </div>
+                </div>
+</div>
+  </div></div>
+                
+            </div>
+        </div>
+    </footer>  
+    <!-- footer_end  -->
+
+    <!-- JS here -->
+    <script src="js/vendor/modernizr-3.5.0.min.js"></script>
+    <script src="js/vendor/jquery-1.12.4.min.js"></script>
+    <script src="js/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/owl.carousel.min.js"></script>
+    <script src="js/isotope.pkgd.min.js"></script>
+    <script src="js/ajax-form.js"></script>
+    <script src="js/waypoints.min.js"></script>
+    <script src="js/jquery.counterup.min.js"></script>
+    <script src="js/imagesloaded.pkgd.min.js"></script>
+    <script src="js/scrollIt.js"></script>
+    <script src="js/jquery.scrollUp.min.js"></script>
+    <script src="js/wow.min.js"></script>
+    <script src="js/gijgo.min.js"></script>
+    <script src="js/nice-select.min.js"></script>
+    <script src="js/jquery.slicknav.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
+    <script src="js/plugins.js"></script>
+
+
+
+    <!--contact js-->
+    <script src="js/contact.js"></script>
+    <script src="js/jquery.ajaxchimp.min.js"></script>
+    <script src="js/jquery.form.js"></script>
+    <script src="js/jquery.validate.min.js"></script>
+    <script src="js/mail-script.js"></script>
+
+
+    <script src="js/main.js"></script>
+
+    
+  
+  <!-- Modal -->
+  <div class="modal fade custom_search_pop" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+          <div class="modal-content">
+            <div class="serch_form">
+                <input type="text" placeholder="search">
+                <button type="submit">search</button>
+            </div>
+          </div>
+        </div>
+      </div>
+    <script>
+        $('#datepicker').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+                rightIcon: '<span class="fa fa-calendar-o"></span>'
+            }
+        });
+        $('#datepicker2').datepicker({
+            iconsLibrary: 'fontawesome',
+            icons: {
+                rightIcon: '<span class="fa fa-calendar-o"></span>'
+            }
+
+        });
+    </script>
+
+
+</body></html>

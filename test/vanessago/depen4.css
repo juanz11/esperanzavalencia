@@ -1,0 +1,65 @@
+
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans Regular'), local('OpenSans-Regular'), url(https://web.archive.org/web/20190713193633im_/https://fonts.gstatic.com/s/opensans/v16/mem8YaGs126MiZpBA-UFW50e.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 600;
+  src: local('Open Sans SemiBold'), local('OpenSans-SemiBold'), url(https://web.archive.org/web/20190713193633im_/https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UNirkOXOhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 700;
+  src: local('Open Sans Bold'), local('OpenSans-Bold'), url(https://web.archive.org/web/20190713193633im_/https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN7rgOXOhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 800;
+  src: local('Open Sans ExtraBold'), local('OpenSans-ExtraBold'), url(https://web.archive.org/web/20190713193633im_/https://fonts.gstatic.com/s/opensans/v16/mem5YaGs126MiZpBA-UN8rsOXOhs.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 300;
+  src: url(https://web.archive.org/web/20190713193633im_/https://fonts.gstatic.com/s/oswald/v23/TK3_WkUHHAIjg75cFRf3bXL8LICs169vsUhiYA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://web.archive.org/web/20190713193633im_/https://fonts.gstatic.com/s/oswald/v23/TK3_WkUHHAIjg75cFRf3bXL8LICs1_FvsUhiYA.ttf) format('truetype');
+}
+@font-face {
+  font-family: 'Oswald';
+  font-style: normal;
+  font-weight: 700;
+  src: url(https://web.archive.org/web/20190713193633im_/https://fonts.gstatic.com/s/oswald/v23/TK3_WkUHHAIjg75cFRf3bXL8LICs1xZosUhiYA.ttf) format('truetype');
+}
+
+/*
+     FILE ARCHIVED ON 19:36:33 Jul 13, 2019 AND RETRIEVED FROM THE
+     INTERNET ARCHIVE ON 18:08:09 Oct 26, 2020.
+     JAVASCRIPT APPENDED BY WAYBACK MACHINE, COPYRIGHT INTERNET ARCHIVE.
+
+     ALL OTHER CONTENT MAY ALSO BE PROTECTED BY COPYRIGHT (17 U.S.C.
+     SECTION 108(a)(3)).
+*/
+/*
+playback timings (ms):
+  exclusion.robots.policy: 0.372
+  RedisCDXSource: 8.061
+  PetaboxLoader3.resolve: 115.571
+  esindex: 0.013
+  exclusion.robots: 0.388
+  PetaboxLoader3.datanode: 1245.363 (4)
+  load_resource: 647.753
+  CDXLines.iter: 28.305 (3)
+  LoadShardBlock: 810.273 (3)
+  captures_list: 851.458
+*/

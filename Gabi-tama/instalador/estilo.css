@@ -1,0 +1,32 @@
+*{padding: 0;margin: 0;box-sizing: border-box;}
+html{scroll-behavior:smooth;background: #f1f1f1;}
+@font-face{ font-family: patua; src:url(../font/patua.ttf);}
+@font-face{ font-family: roboto; src:url(../font/roboto.ttf);}
+h1,h2,h3,h4,h5,h6,label,select{font-family: patua;}
+ul, li,input,button {font-family: roboto;}
+button{cursor: pointer;}
+a{text-decoration: none;color: #444;}
+p{font-family: roboto;}
+.logo{width: 100%;text-align: center;}
+.logo img{width: 100px;height: 100px;}
+.contenido{max-width: 800px; width: 95%; margin:20px auto;background: white;overflow: hidden;padding:20px;}
+.contenido ul {margin: 20px 0px 20px 20px}
+.mrb20{margin-bottom: 20px;}
+.btn{display: inline-block;background:#f1f1f1; border: 1px solid silver;padding: 10px;
+border-radius: 4px;}
+.btn:hover{color: #000;background: silver}
+.formulario{width: 100%;padding: 20px 0;overflow: hidden;text-align: center;}
+.formulario label{width: 100%;display: block;}
+.formulario input,select{min-width:40%;display:block;margin:auto;padding:5px;margin-bottom:20px;}
+.error{display: block; padding: 20px; text-align: center;background: #FEE8E8;border:1px solid #F03A3A;margin-bottom: 20px;}
+.select_form{}
+
+.formulario2{width: 100%;padding: 20px 0;overflow: hidden;}
+.formulario2 ul li{display: inline-block;}
+.formulario2 ul  span{font-size: 12px;}
+.formulario2 label{display: inline-block;min-width: 20%;}
+.formulario2 input{padding:5px;}
+.txtlabel{min-width: 20%;	}
+
+
+

@@ -1,0 +1,144 @@
+[10-Apr-2021 20:06:41 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:546
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 546
+[10-Apr-2021 20:23:32 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:546
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 546
+[10-Apr-2021 20:28:36 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:541
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 541
+[10-Apr-2021 20:30:18 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:541
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 541
+[10-Apr-2021 20:39:04 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:541
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 541
+[10-Apr-2021 20:39:06 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:541
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 541
+[10-Apr-2021 20:39:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:541
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 541
+[10-Apr-2021 20:39:10 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:541
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 541
+[11-Apr-2021 15:05:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:541
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 541
+[11-Apr-2021 16:53:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[11-Apr-2021 16:53:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/modificar.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/modificar.php on line 7
+[11-Apr-2021 16:54:03 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/modificar.php:7
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/modificar.php on line 7
+[11-Apr-2021 16:54:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function query() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/update.php:14
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/update.php on line 14
+[11-Apr-2021 16:54:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[11-Apr-2021 17:00:28 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[11-Apr-2021 17:00:29 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[11-Apr-2021 17:00:31 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[11-Apr-2021 19:44:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[11-Apr-2021 22:53:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[11-Apr-2021 23:00:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[12-Apr-2021 00:33:53 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[12-Apr-2021 00:34:08 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[12-Apr-2021 00:35:15 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[12-Apr-2021 01:04:12 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[12-Apr-2021 01:04:50 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[12-Apr-2021 01:18:48 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[12-Apr-2021 01:19:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[12-Apr-2021 01:19:11 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[12-Apr-2021 17:59:55 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[12-Apr-2021 18:03:07 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[13-Apr-2021 00:06:00 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[14-Apr-2021 15:25:42 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[14-Apr-2021 15:54:26 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[14-Apr-2021 15:54:30 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[14-Apr-2021 15:54:33 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543
+[17-Jun-2021 17:05:21 UTC] PHP Fatal error:  Uncaught Error: Call to a member function fetch_array() on null in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php:543
+Stack trace:
+#0 {main}
+  thrown in /home/esperanza/public_html/testing/Users Forms/Dashboard/tables.php on line 543

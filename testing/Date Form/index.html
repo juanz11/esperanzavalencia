@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Date test</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link href="~/Content/font-awesome.min.css" rel="stylesheet" />
+    <link href="~/Content/bootstrap-datetimepicker.min.css" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <script src="index.js"></script>
+    <script type="text/javascript"></script>
+
+
+    <link href="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/css/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <script src="http://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.0.3/js/bootstrap.min.js"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.0/css/bootstrap-datepicker.css" rel="stylesheet" type="text/css" />
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-datepicker/1.4.0/js/bootstrap-datepicker.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $("#date_value").on("blur", function () {
+                var test1 = $("#date_value").val();
+                if (test1.trim() == "" || test1 == null) {
+                    if ($(".datepicker").length == 0) {
+                        $("#date_value").focus();
+                    }
+                }
+            })
+            $("#date_value").datepicker({
+                autoclose: true,
+            });
+
+            $("#btnSave").click(function () {
+                $('#editModal').modal('toggle');
+            })
+        });
+    </script>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+</head>
+<body>
+    
+    <h1 style="text-align: center;">Date Test</h1>    
+
+    <div class="alert alert-primary" role="alert">
+        Please enter the required information:
+    </div>
+
+    <form action="https://esperanzavalencia.com/testing/Date Form/index.php" method="post">
+        <div class="form-group">
+            <label style="font-weight: bold; display: block;" for="InputName">Name:</label>
+            <input type="text" class="form-control" id="usersName" aria-describedby="emailHelp" placeholder="Enter name" name="usersName">        
+        </div>
+
+        <div class="form-group">
+            <label style="font-weight: bold; display: block;" for="InputPuropouse">Purpouse: </label>
+            <input type="text" class="form-control" id="usersPurpouse" placeholder="Purpouse" name="usersPurpouse">
+        </div>
+
+
+        <div style="margin-top: 10px;">
+            <label style="font-weight: bold; display: block;">Date</label>
+            <input type="text" class="form-control" runat="server" id="date_value" required="required" users="date_value"/>
+        </div>
+
+        <small id="datePicker" class="form-text text-muted">Select a date</small>
+        <br><br>
+
+        <button method="post" action="http://esperanzavalencia.com/testing/index.php" type="submit" class="btn btn-primary">Submit</button>
+    
+        </form>
+</body>
+</html>

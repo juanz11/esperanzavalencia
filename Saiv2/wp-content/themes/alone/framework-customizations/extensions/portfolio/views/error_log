@@ -1,0 +1,8 @@
+[23-Sep-2018 20:31:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/saingo/public_html/wp-content/themes/alone/framework-customizations/extensions/portfolio/views/single.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/saingo/public_html/wp-content/themes/alone/framework-customizations/extensions/portfolio/views/single.php on line 2
+[23-Sep-2018 20:31:15 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function get_header() in /home/saingo/public_html/wp-content/themes/alone/framework-customizations/extensions/portfolio/views/single.php:2
+Stack trace:
+#0 {main}
+  thrown in /home/saingo/public_html/wp-content/themes/alone/framework-customizations/extensions/portfolio/views/single.php on line 2

@@ -1,0 +1,146 @@
+.registro_total{width: 100%; overflow: hidden;padding: 50px 0;}
+.registro{
+	max-width:1150px;width: 90%;
+	margin: auto;padding: 20px 0;
+}
+.registro_contenido{
+	width: 90%;margin: auto;
+	box-shadow: 3px 3px 11px silver; overflow: hidden;
+}
+.registro_contenido h2{text-align: center;padding: 20px;
+	font-size: 25px;font-family: helvetica;font-weight:100;color: #333;
+}
+.registro_contenido hr{border: 1px solid #EBEBEB; }
+.formulario{width: 100%;padding: 20px;;overflow: hidden;}
+.form_texto{width: 50%;float: left;
+	text-align: center;
+}
+.form_grupo{width: 100%;}
+.form_grupo input[type="text"]{
+	width: 48%;
+	float: left;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-family: arial;
+	font-size: 16px;
+	border: 1px solid #EBEBEB;
+}.mr2px{margin-right: 4%;}
+.form_texto >input[type="email"],
+.form_texto >input[type="text"]{
+	width: 100%;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-family: arial;
+	font-size: 16px;
+	border: 1px solid #EBEBEB;
+}
+.form_grupo input[type="password"]{
+	width: 48%;
+	float: left;
+	margin-bottom: 20px;
+	padding: 10px;
+	font-family: arial;
+	font-size: 16px;
+	border: 1px solid #EBEBEB;
+}
+.form_texto input[type="submit"]{
+	display: inline-block;
+	padding: 10px 25px;
+	margin-bottom: 20px;
+	font-family: arial;
+	font-size: 16px;
+	border: 1px solid #EBEBEB;
+	border-radius: 5px;
+	background: #DC3738;transition: .5s ease;
+}
+.form_grupo input[type="password"]:focus,
+.form_texto >input[type="email"]:focus,
+.form_texto >input[type="text"]:focus,
+.form_grupo input[type="text"]:focus{
+	outline: none;border: 1px solid #DC3738;
+}
+.form_grupo input[type="password"]:hover,
+.form_texto >input[type="email"]:hover,
+.form_texto >input[type="text"]:hover,
+.form_grupo input[type="text"]:hover{
+	border: 1px solid #DC3738;
+}
+.form_texto input[type="submit"]:hover{background: #911414;}
+
+.form_imagen{width: 50%;float: left;
+	padding-left: 20px; text-align: center;
+}
+.form_imagen ul{width: 20%;height:100px; overflow: hidden; float: left;}
+.form_imagen ul img{width: 100%;height: 70%;padding: 5px;transition:padding .4s ease;}
+.form_imagen ul img:hover{padding: 1px;}
+.form_imagen ul input{}
+.form_imagen hr{background: #fff;border: 1px solid #EBEBEB;}
+.mb20px{margin-bottom: 20px;}
+.form_imagen h3{
+	color: #333;font-size: 18px;font-family: helvetica;font-weight: 100;
+}
+.errorform{
+	width: 95%;margin: 10px auto;padding: 20px;
+	border: 1px solid #B03636;background: #FF6A6A;
+	color:#fff;font-family:helvetica;font-size: 16px;
+}
+.texto_registrate{text-align: center; display: block;}
+.texto_registrate p{color: #333;font-size: 16px;font-family:helvetica;}
+.texto_registrate a{padding: 10px;display: inline-block;font-family: helvetica;text-decoration: none;
+	color: #A42929;}
+.texto_registrate a:hover{color:#D03232;text-decoration: underline;}
+
+
+
+.login_total{
+	max-width: 500px; width: 90%;margin: auto;
+	box-shadow: 3px 3px 11px silver;
+	margin-top: 50px;
+}
+.login{
+	width: 100%;
+	padding: 10px;
+	text-align: center;
+}
+.login input[type="text"],
+.login input[type="password"]{
+	width: 100%;margin-bottom: 15px;
+	padding: 10px;
+	border: 1px solid #d3d3d3;
+	font-size: 16px;font-family:helvetica;
+}
+.login input[type="text"]:focus,
+.login input[type="password"]:focus{
+	border: 1px solid #DC3738;
+	outline: none;
+}
+.login input[type="text"]:hover,
+.login input[type="password"]:hover{
+	border: 1px solid #DC3738;
+}
+
+.login input[type="submit"]{
+	padding: 10px 25px;
+	font-family: arial;
+	font-size: 16px;
+	border: 1px solid #EBEBEB;
+	border-radius: 5px;color: #fff;
+	background: #DC3738;transition: .5s ease;
+}
+.login input[type="submit"]:hover{background: #911414;}
+.loginerror{
+	border: 1px solid #F49191;
+	padding: 10px 0;margin-top: 10px;
+}
+.usuarios_all{width: 100%;overflow: hidden;margin-top: 20px;
+border-top: 1px solid silver;border-bottom: 1px solid silver;}
+.usuario_dato{width: calc(100% - 100px;); float: left;}
+.usuario_img{width: 100px;height: 100px;overflow: hidden;float:right;margin-top:10px;}
+.usuario_img img{width: 100%;}
+.usuario_edit{width: 100%;display: block;float: left;}
+.usuario_dato h4{font-family: patua;}
+.usuario_dato h4 label{font-family: roboto;}
+.admin_article.perfil_us {
+    margin: auto;
+    text-align: center;
+}

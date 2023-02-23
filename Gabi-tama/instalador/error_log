@@ -1,0 +1,42 @@
+[09-Sep-2022 20:29:16 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 1
+[09-Sep-2022 20:29:16 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 1
+[09-Sep-2022 20:29:16 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 1
+[09-Sep-2022 20:29:16 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 3
+[09-Sep-2022 20:29:16 UTC] PHP Warning:  include(includes/header.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 3
+[09-Sep-2022 20:29:16 UTC] PHP Warning:  include(): Failed opening 'includes/header.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 3
+[09-Sep-2022 20:29:16 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 46
+[09-Sep-2022 20:29:16 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 48
+[09-Sep-2022 20:29:16 UTC] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 69
+[09-Sep-2022 20:29:16 UTC] PHP Warning:  include(includes/footer.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 69
+[09-Sep-2022 20:29:16 UTC] PHP Warning:  include(): Failed opening 'includes/footer.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 69
+[09-Sep-2022 20:29:59 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 1
+[09-Sep-2022 20:30:00 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 1
+[09-Sep-2022 20:30:00 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 1
+[09-Sep-2022 20:30:00 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 46
+[09-Sep-2022 20:30:00 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 48
+[09-Sep-2022 20:30:20 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'example_user'@'localhost' (using password: YES) in /home/esperanza/public_html/Gabi-tama/instalador/db.php on line 8
+[09-Sep-2022 20:30:20 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_erro() in /home/esperanza/public_html/Gabi-tama/instalador/db.php:9
+Stack trace:
+#0 /home/esperanza/public_html/Gabi-tama/instalador/index.php(1): include()
+#1 {main}
+  thrown in /home/esperanza/public_html/Gabi-tama/instalador/db.php on line 9
+[09-Sep-2022 20:30:26 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'example_user'@'localhost' (using password: YES) in /home/esperanza/public_html/Gabi-tama/instalador/db.php on line 8
+[09-Sep-2022 20:30:26 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_erro() in /home/esperanza/public_html/Gabi-tama/instalador/db.php:9
+Stack trace:
+#0 /home/esperanza/public_html/Gabi-tama/instalador/index.php(1): include()
+#1 {main}
+  thrown in /home/esperanza/public_html/Gabi-tama/instalador/db.php on line 9
+[09-Sep-2022 20:30:29 UTC] PHP Warning:  mysqli_connect(): (HY000/1045): Access denied for user 'example_user'@'localhost' (using password: YES) in /home/esperanza/public_html/Gabi-tama/instalador/db.php on line 8
+[09-Sep-2022 20:30:29 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function mysqli_erro() in /home/esperanza/public_html/Gabi-tama/instalador/db.php:9
+Stack trace:
+#0 /home/esperanza/public_html/Gabi-tama/instalador/index.php(1): include()
+#1 {main}
+  thrown in /home/esperanza/public_html/Gabi-tama/instalador/db.php on line 9
+[09-Sep-2022 20:30:41 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 1
+[09-Sep-2022 20:30:41 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 1
+[09-Sep-2022 20:30:41 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 46
+[09-Sep-2022 20:30:41 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 48
+[09-Sep-2022 20:31:20 UTC] PHP Warning:  include(db.php): failed to open stream: No such file or directory in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 1
+[09-Sep-2022 20:31:20 UTC] PHP Warning:  include(): Failed opening 'db.php' for inclusion (include_path='.:/opt/cpanel/ea-php74/root/usr/share/pear') in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 1
+[09-Sep-2022 20:31:20 UTC] PHP Warning:  mysqli_query() expects parameter 1 to be mysqli, null given in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 46
+[09-Sep-2022 20:31:20 UTC] PHP Warning:  mysqli_fetch_assoc() expects parameter 1 to be mysqli_result, null given in /home/esperanza/public_html/Gabi-tama/instalador/index.php on line 48

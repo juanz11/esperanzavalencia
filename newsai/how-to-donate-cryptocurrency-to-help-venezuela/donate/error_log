@@ -1,0 +1,12 @@
+[22-Feb-2021 14:37:30 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/esperanza/public_html/newsai/how-to-donate-cryptocurrency-to-help-venezuela/donate/PHPMailer.php:1394
+Stack trace:
+#0 /home/esperanza/public_html/newsai/how-to-donate-cryptocurrency-to-help-venezuela/donate/PHPMailer.php(1332): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/esperanza/public_html/newsai/how-to-donate-cryptocurrency-to-help-venezuela/donate/Emailphp.php(75): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/esperanza/public_html/newsai/how-to-donate-cryptocurrency-to-help-venezuela/donate/PHPMailer.php on line 1394
+[22-Feb-2021 15:52:11 UTC] PHP Fatal error:  Uncaught Error: Class 'PHPMailer\PHPMailer\Exception' not found in /home/esperanza/public_html/newsai/how-to-donate-cryptocurrency-to-help-venezuela/donate/PHPMailer.php:1394
+Stack trace:
+#0 /home/esperanza/public_html/newsai/how-to-donate-cryptocurrency-to-help-venezuela/donate/PHPMailer.php(1332): PHPMailer\PHPMailer\PHPMailer->preSend()
+#1 /home/esperanza/public_html/newsai/how-to-donate-cryptocurrency-to-help-venezuela/donate/Emailphp.php(75): PHPMailer\PHPMailer\PHPMailer->send()
+#2 {main}
+  thrown in /home/esperanza/public_html/newsai/how-to-donate-cryptocurrency-to-help-venezuela/donate/PHPMailer.php on line 1394

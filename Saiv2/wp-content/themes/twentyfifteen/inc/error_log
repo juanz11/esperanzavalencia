@@ -1,0 +1,24 @@
+[26-Oct-2018 03:28:40 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php on line 26
+[26-Oct-2018 03:41:07 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php:26
+Stack trace:
+#0 {main}
+  thrown in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/back-compat.php on line 26
+[26-Oct-2018 07:53:05 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php on line 41
+[26-Oct-2018 09:03:10 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php:41
+Stack trace:
+#0 {main}
+  thrown in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/custom-header.php on line 41
+[26-Oct-2018 12:10:37 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/customizer.php:83
+Stack trace:
+#0 {main}
+  thrown in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/customizer.php on line 83
+[26-Oct-2018 23:40:28 UTC] PHP Fatal error:  Uncaught Error: Call to undefined function add_action() in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/template-tags.php:171
+Stack trace:
+#0 {main}
+  thrown in /home/saingo/public_html/wp-content/themes/twentyfifteen/inc/template-tags.php on line 171
